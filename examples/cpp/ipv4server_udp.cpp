@@ -33,6 +33,7 @@
 #include <WinSock2.h>
 #include <stdint.h>
 #else
+#include <pthread.h>
 #include <netinet/in.h>
 #include <sys/socket.h>
 #include <netdb.h>
